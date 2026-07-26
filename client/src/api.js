@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://skill-exchange-backend-x1rt.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
